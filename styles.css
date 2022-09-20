@@ -1,0 +1,41 @@
+h1 {
+  font-family: Georgia;
+  color: #4a1a9e;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+article {
+  width: 800px;
+}
+
+article figure {
+  width: 600px;
+  height: auto;
+  border: 3px solid #a47bea;
+  padding: 8px;
+  padding-bottom: 14px;
+}
+
+article figure img {
+  width: 100%;
+}
+
+figcaption {
+  font-family: Tahoma;
+  font-size: 14px;
+}
+
+p {
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+p img {
+  max-width: 30%;
+  float: left;
+  margin-right: 12px;
+  border: 3px solid #d1bdf4;
+  padding: 8px;
+}
