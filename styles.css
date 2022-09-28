@@ -1,14 +1,11 @@
 h1 {
-  font-family: Georgia;
+  font-family: Georgia, serif;
   color: #4a1a9e;
   font-size: 48px;
   text-align: center;
   margin-bottom: 20px;
 }
 
-article {
-  width: 800px;
-}
 
 article figure {
   width: 600px;
@@ -23,12 +20,13 @@ article figure img {
 }
 
 figcaption {
-  font-family: Tahoma;
-  font-size: 14px;
+  font-family: Tahoma, sans-serif;
+  font-size: 12px;
+  font-style: italic;
 }
 
 p {
-  font-family: Tahoma;
+  font-family: Tahoma, sans-serif;
   font-size: 16px;
 }
 
@@ -38,4 +36,29 @@ p img {
   margin-right: 12px;
   border: 3px solid #d1bdf4;
   padding: 8px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 25px;
+  padding-left: 0;
+  border-style: double;
+  border-color: #1a809e;
+  border-width: 5px 0px 5px 0px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  padding: 15px;
+  font-size: 20px;
+  font-family: inherit;
+}
+
+nav ul li a:hover {
+  background-color: #1a809e;
+  color: #ffffff;
 }
