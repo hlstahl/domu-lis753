@@ -57,6 +57,10 @@ nav ul li a {
   font-family: inherit;
 }
 
+nav ul li a:visited {
+  color: #b65392;
+}
+
 nav ul li a:hover {
   background-color: #1a809e;
   color: #ffffff;
