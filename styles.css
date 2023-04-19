@@ -57,14 +57,15 @@ figure.section-image {
   padding: 8px;
 }
 
-figure.section-image.odd {
-  float: left;
-  margin-right: 16px;
-}
-
-figure.section-image.even {
-  float: right;
-  margin-left: 16px;
+@media all and (min-width: 768px) {
+  figure.section-image.odd {
+    float: left;
+    margin-right: 16px;
+  }
+  figure.section-image.even {
+    float: right;
+    margin-left: 16px;
+  }
 }
 
 figcaption {
@@ -76,22 +77,36 @@ figcaption {
 p {
   font-size: 16px;
   font-weight: 400;
-  margin-left: 80px;
+}
+
+@media all and (min-width: 768px) {
+  p {
+    margin-left: 80px;
+  }
 }
 
 p.first {
     padding-top: 4px;
 }
 
+p.footer {
+  margin-left: 0; 
+}
+
 nav ul {
-  display: flex;
   list-style: none;
-  justify-content: center;
-  gap: 25px;
   padding-left: 0;
   font-family: 'Playfair Display', serif;
   font-weight: 500;
   background-color: #ecf7fa;
+}
+
+@media all and (min-width: 415px) {
+  nav ul {
+    display: flex;  
+    justify-content: center;
+    gap: 25px;
+  }
 }
 
 nav ul li a {
