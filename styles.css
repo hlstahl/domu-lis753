@@ -129,7 +129,6 @@ nav ul {
   list-style: none;
   padding-left: 0;
   background-color: #ecf7fa;
-  color: #1a3e9e;
   border-style: double;
   border-color: #1a809e;
   border-width: 5px 0px;
@@ -147,15 +146,12 @@ nav ul {
 nav ul li a, .dropbtn {
   text-decoration: none;
   text-transform: uppercase;
+  color: #1a3e9e;
   display: block;
   padding: 15px;
   font-family: 'Playfair Display', serif;
   font-weight: 500;
   font-size: 24px;
-}
-
-nav ul li a:visited {
-  color: #6c138d;
 }
 
 .dropbtn {
