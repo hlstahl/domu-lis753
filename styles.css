@@ -45,7 +45,7 @@ h1#page-title {
   color: #6c138d;
   font-size: 46px;
   text-align: left;
-  margin-left: 36px;
+  margin-left: 5%;
   margin-top: 32px;
   margin-bottom: 20px;
 }
@@ -53,7 +53,7 @@ h1#page-title {
 h2 {
   font-family: 'Playfair Display', serif;
   color: #1a809e;
-  font-size: 38;
+  font-size: 38px;
   font-weight: 700;
   margin-left: 40px;
   margin-bottom: 6px;
@@ -65,28 +65,36 @@ article figure img {
 }
 
 figure.main-image {
-  max-width: 1200px;
+  max-width: 90%;
   height: auto;
   background: #ecf7fa;
   border: 1px solid #1a3e9e;
   padding: 12px;
   padding-bottom: 14px;
+  display: block;
+  margin: auto; 
 }
 
 figure.section-image {
   max-width: 320px;
   border: 2px solid #bda0f1;
   padding: 8px;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media all and (min-width: 768px) {
   figure.section-image.odd {
     float: left;
+    margin-left: 60px; 
     margin-right: 16px;
+    margin-top: 10px;
   }
   figure.section-image.even {
     float: right;
     margin-left: 16px;
+    margin-top: 10px; 
   }
 }
 
@@ -96,6 +104,15 @@ figcaption {
   font-weight: 300;
 }
 
+.first {
+  padding-top: 4px; 
+}
+
+.top {
+  margin-left: 5%; 
+  margin-right: 5%;
+}
+
 p {
   font-size: 16px;
   font-weight: 400;
@@ -103,12 +120,8 @@ p {
 
 @media all and (min-width: 768px) {
   p {
-    margin-left: 80px;
+    margin-left: 60px;
   }
-}
-
-p.first {
-    padding-top: 4px;
 }
 
 p.footer {
@@ -123,9 +136,10 @@ nav ul {
   border-style: double;
   border-color: #1a809e;
   border-width: 5px 0px;
+  text-align: center;
 }
 
-@media all and (min-width: 415px) {
+@media all and (min-width: 430px) {
   nav ul {
     display: flex;  
     justify-content: center;
@@ -197,12 +211,16 @@ footer nav ul {
   border-style: none;
 }
 
+footer nav ul li a {
+  font-size: 16px; 
+}
+
 footer nav ul li a:hover {
   color: #1a809e;
 }
 
 footer#page-footer {
-  padding: 32px 0;
+  padding: 24px 0;
   margin-top: 64px;
   text-align: center;
   background-color: #ecf7fa;
